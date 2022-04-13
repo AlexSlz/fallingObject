@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a6251159bf3dc146bcccc764db66f7c, type: 3}
+  m_Name: SkinsDB
+  m_EditorClassIdentifier: 
+  _skins:
+  - _name: berry-dark
+    _sprite: {fileID: 21300000, guid: e9ade867fc17f08408333daa9854785f, type: 3}
+    _color: {r: 0.3254902, g: 0.15686275, b: 0.5764706, a: 1}
+  - _name: lime
+    _sprite: {fileID: 21300000, guid: 384ff97d8ddbf164cbc06dcca204ba4e, type: 3}
+    _color: {r: 0.25485048, g: 0.7830189, b: 0.31319463, a: 1}
+  - _name: orange
+    _sprite: {fileID: 21300000, guid: b67820bd94e6f96429b2fa0227933c31, type: 3}
+    _color: {r: 1, g: 0.6377012, b: 0.21226418, a: 1}
+  - _name: plum
+    _sprite: {fileID: 21300000, guid: 1bf1b8717cc5c6546bf880e3a8cd2a6c, type: 3}
+    _color: {r: 0.446038, g: 0.27033645, b: 0.7075472, a: 1}
+  - _name: raspberry
+    _sprite: {fileID: 21300000, guid: fa4283405c9e0ba41969f6a51b331338, type: 3}
+    _color: {r: 1, g: 0.19339621, b: 0.19339621, a: 1}
+  - _name: apple
+    _sprite: {fileID: 21300000, guid: 434263ab4e46dbd4c88270f23b573006, type: 3}
+    _color: {r: 1, g: 0.9507151, b: 0.33490568, a: 1}
+  - _name: cherry
+    _sprite: {fileID: 21300000, guid: bf9f82a32f1be6b488ac59186f2328cb, type: 3}
+    _color: {r: 1, g: 0.25, b: 0.25, a: 1}
+  - _name: berry
+    _sprite: {fileID: 21300000, guid: 7d1e055d142fcbc4e8df44ddc36bc546, type: 3}
+    _color: {r: 1, g: 0.25, b: 0.25, a: 1}
+  - _name: melon
+    _sprite: {fileID: 21300000, guid: a585c5583856a8c469206f51502f1c3a, type: 3}
+    _color: {r: 1, g: 0.25, b: 0.25, a: 1}
