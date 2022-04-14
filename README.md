@@ -1,6 +1,6 @@
-#[Download Game] (https://github.com/AlexSlz/fallingObject/raw/master/game.apk)
+[Download Game] (https://github.com/AlexSlz/fallingObject/raw/master/game.apk)
 
-##Введение
+#Введение
 В игре нужно нажимать на падающие объекты, в зеленой зоне. В красной зоне они пропадают.
 Очки игроку начисляются с учетом коэффициента, который подгружается из апи погоды. (https://openweathermap.org/)
 Сложность увеличивается от количества нажатых объектов, сложность можно регулировать кривой в эдиторе:
