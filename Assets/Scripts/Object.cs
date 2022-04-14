@@ -55,9 +55,14 @@ public class Object : MonoBehaviour
         ClickOnObject();
     }
 
+    private void OnMouseEnter()
+    {
+        ClickOnObject();
+    }
+
     private void ClickOnObject()
     {
-        if (CanClick)
+        if (CanClick && !PlayingAnimation)
         {
             _score.Add(1);
             PlayParticle();

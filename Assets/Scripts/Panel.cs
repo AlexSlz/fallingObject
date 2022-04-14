@@ -6,7 +6,7 @@ using UnityEngine;
 public class Panel : MonoBehaviour
 {
     [SerializeField] private GameManager _gameManager;
-    [SerializeField] private GameObject _buttonPanel;
+    [SerializeField] private GameObject _resumeButton;
     [SerializeField] private TMP_Text _text;
 
     private void OnEnable()
@@ -22,7 +22,7 @@ public class Panel : MonoBehaviour
 
     public IEnumerator GenerateLosePanel()
     {
-        _buttonPanel.GetComponentsInChildren<Transform>()[1].gameObject.SetActive(false);
+        _resumeButton.SetActive(false);
 
         _text.text = "You Lose...";
 

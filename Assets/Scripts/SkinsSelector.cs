@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class SkinsSelector : MonoBehaviour
 {
-    private string _uri = "https://drive.google.com/uc?export=download&id=1Q7v_CklK418w4HOnicSrERG-xWru_3gJ";
+    //https://drive.google.com/uc?export=download&id=1Q7v_CklK418w4HOnicSrERG-xWru_3gJ -- web
+    //https://drive.google.com/uc?export=download&id=1qnoLbOBnnsXwcEzmNple5oGy8nJsjPKD -- android
+    private string _uri = "https://drive.google.com/uc?export=download&id=1qnoLbOBnnsXwcEzmNple5oGy8nJsjPKD";
 
     [SerializeField] private GameObject _shopItemPrefab;
     [SerializeField] private Transform _spawnLocation;
