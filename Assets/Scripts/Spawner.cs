@@ -74,6 +74,7 @@ public class Spawner : MonoBehaviour
                 obj.transform.position += new Vector3(0, -1 * (fallingSpeed * Time.deltaTime));
             }
         }*/
+
     private Coroutine SpawnCoroutine = null;
 
     public void StartSpawnObject()
@@ -86,7 +87,6 @@ public class Spawner : MonoBehaviour
         if(SpawnCoroutine != null)
         StopCoroutine(SpawnCoroutine);
     }
-
 
     private IEnumerator SpawnObjectCoroutine()
     {
